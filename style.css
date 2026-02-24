@@ -1,0 +1,21 @@
+@media print {
+    .no-print { 
+        display: none !important; 
+    }
+    body { 
+        padding: 0; 
+        background: white; 
+    }
+    .print-container { 
+        box-shadow: none; 
+        border: none; 
+        width: 100%; 
+        margin: 0; 
+    }
+}
+
+#signature-pad {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    cursor: crosshair;
+}
